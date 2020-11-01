@@ -1,0 +1,57 @@
+dependencies:
+  eris: 0.8.6
+  google-closure-library: 20180506.0.0
+  ws: 6.1.0
+packages:
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /async-limiter/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
+  /eris/0.8.6:
+    dependencies:
+      ws: 5.2.2
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    optionalDependencies:
+      opusscript: 0.0.4
+      tweetnacl: 1.0.3
+    resolution:
+      integrity: sha512-mEE+hMxs1YrQhu7YSs8jTUoaZC0ahWDNPLR9Iq/FmIzXYPBIEFKXpL00jbARa36Xpay7fmc/cQfJLwhebDMwuw==
+  /google-closure-library/20180506.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-LS2pLCfBDcADE//4ClFYtVTKmQg=
+  /opusscript/0.0.4:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-bEPZFE2lhUJYQD5yfTFO4RhbRZ937x6hRwBC1YoGacT35bwDVwKFP1+amU8NYfZL/v4EU7ZTU3INTqzYAnuP7Q==
+  /tweetnacl/1.0.3:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
+  /ws/5.2.2:
+    dependencies:
+      async-limiter: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
+  /ws/6.1.0:
+    dependencies:
+      async-limiter: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha512-H3dGVdGvW2H8bnYpIDc3u3LH8Wue3Qh+Zto6aXXFzvESkTVT6rAfKR6tR/+coaUvxs8yHtmNV0uioBF62ZGSTg==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  eris: ^0.8.6
+  google-closure-library: 20180506.0.0
+  ws: 6.1.x
